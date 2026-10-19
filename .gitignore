@@ -1,0 +1,60 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter temporary files and checkpoints
+.ipynb_checkpoints/
+
+# Local data files - do not commit large datasets
+data/
+datasets/
+local_data/
+*.csv
+*.json
+*.jsonl
+*.parquet
+*.snappy.parquet
+*.delta
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# dbt generated artifacts
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+
+# Local credential and configuration files
+profiles.yml
+secrets/
+credentials/
+
+# Terraform state files, if infrastructure-as-code is added later
+*.tfstate
+*.tfstate.*
+.terraform/
